@@ -7,10 +7,12 @@
   <body>
     <p>
 <?php
+/*Variable*/
   $gender = 'homme';
+  /*Condition*/
   if($gender == 'homme'){
     echo 'C\'est un développeur !!!';
-  } else {
+  } else {/*Autre condition si la variable vaut femme*/
     echo 'C\'est une développeuse !!!';
   }
  ?>
